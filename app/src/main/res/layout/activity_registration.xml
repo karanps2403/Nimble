@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/spartan_bold"
             android:text="Sign in"
-            android:textColor="@color/primary_purple"
+            android:textColor="@color/blue"
             android:textSize="@dimen/_16sdp" />
 
     </LinearLayout>
