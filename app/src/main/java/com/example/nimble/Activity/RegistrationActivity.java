@@ -73,7 +73,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 String email = reg_email.getText().toString();
                 String password = reg_password.getText().toString();
                 String cPassword = reg_cPassword.getText().toString();
-                String staus="Hey There I'm Using This Application";
+                String staus="Hey There I'm Using This Nimble";
 
 
                 if (TextUtils.isEmpty(name) || TextUtils.isEmpty(email) ||
