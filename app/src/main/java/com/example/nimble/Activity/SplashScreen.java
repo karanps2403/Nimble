@@ -8,17 +8,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.nimble.R;
 
-public class MainActivity extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_splash_screen);
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                Intent i = new Intent(SplashScreen.this, HomeActivity.class);
                 startActivity(i);
                 finish();
             }
